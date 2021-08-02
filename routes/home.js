@@ -11,7 +11,7 @@ router.get("/", function (req, res) {
 });
 
 //Exercises
-router.get("/exercises", function (req, res) {
+router.get("/exercise", function (req, res) {
   try {
     res.sendFile(path.join(__dirname, "../public/exercise.html"));
   } catch (err) {
